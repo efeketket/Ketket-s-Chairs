@@ -21,9 +21,9 @@ execute as @e[type=marker,tag=dtchair,tag=2,tag=west] at @s if block ~ ~ ~ playe
 execute as @e[type=marker,tag=dtchair] at @s run kill @s
 
 execute as @s[x_rotation=60..90,y_rotation=136..225] run summon minecraft:marker ^ ^0.5 ^2 {Tags:["dtchair","3","north"]} 
-execute as @s[x_rotation=60..90,y_rotation=-133..-45] run summon minecraft:marker ^ ^0.4 ^1 {Tags:["dtchair","3","east"]} 
-execute as @s[x_rotation=60..90,y_rotation=-43..43] run summon minecraft:marker ^ ^0.4 ^1 {Tags:["dtchair","3","south"]} 
-execute as @s[x_rotation=60..90,y_rotation=45..135] run summon minecraft:marker ^ ^0.4 ^1 {Tags:["dtchair","3","west"]} 
+execute as @s[x_rotation=60..90,y_rotation=-133..-45] run summon minecraft:marker ^ ^0.4 ^2 {Tags:["dtchair","3","east"]} 
+execute as @s[x_rotation=60..90,y_rotation=-43..43] run summon minecraft:marker ^ ^0.4 ^2 {Tags:["dtchair","3","south"]} 
+execute as @s[x_rotation=60..90,y_rotation=45..135] run summon minecraft:marker ^ ^0.4 ^2 {Tags:["dtchair","3","west"]} 
 execute as @e[type=marker,tag=dtchair,tag=3,tag=north] at @s if block ~ ~ ~ player_head{SkullOwner:{Id:[I;-795962554,-1054718379,-1315244388,1209528354],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdkYTRhYTQ4MGNjNmFmNWI4MDUzZTA5NjA1ZGM3MWI4NjkxMWQyNGRhOGE4YzBlNDM5MmE1NzU2NDZhYTZjMSJ9fX0="}]}}} run summon minecraft:item_frame ~ ~-1 ~ {Tags:["chairs","chair1","north"]}
 execute as @e[type=marker,tag=dtchair,tag=3,tag=east] at @s if block ~ ~ ~ player_head{SkullOwner:{Id:[I;-795962554,-1054718379,-1315244388,1209528354],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdkYTRhYTQ4MGNjNmFmNWI4MDUzZTA5NjA1ZGM3MWI4NjkxMWQyNGRhOGE4YzBlNDM5MmE1NzU2NDZhYTZjMSJ9fX0="}]}}} run summon minecraft:item_frame ~ ~-1 ~ {Tags:["chairs","chair1","east"]}
 execute as @e[type=marker,tag=dtchair,tag=3,tag=south] at @s if block ~ ~ ~ player_head{SkullOwner:{Id:[I;-795962554,-1054718379,-1315244388,1209528354],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdkYTRhYTQ4MGNjNmFmNWI4MDUzZTA5NjA1ZGM3MWI4NjkxMWQyNGRhOGE4YzBlNDM5MmE1NzU2NDZhYTZjMSJ9fX0="}]}}} run summon minecraft:item_frame ~ ~-1 ~ {Tags:["chairs","chair1","south"]}

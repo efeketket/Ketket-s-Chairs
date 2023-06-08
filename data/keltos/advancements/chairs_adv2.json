@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_axe"
+    },
+    "title": "Local Chair Carpenter",
+    "description": "Craft all the types of chairs.",
+    "background": "minecraft:textures/block/birch_planks.png",
+    "announce_to_chat": true,
+    "hidden": false,
+    "frame": "goal"
+  },
+  "parent": "keltos:chairs_adv1",
+  "criteria": {
+    "criterion_name_1": {
+      "trigger": "minecraft:impossible"
+    },
+    "criterion_name_2": {
+      "trigger": "minecraft:impossible"
+    },
+    "criterion_name_3": {
+      "trigger": "minecraft:impossible"
+    },
+    "criterion_name_4": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

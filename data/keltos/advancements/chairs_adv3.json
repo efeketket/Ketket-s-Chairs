@@ -1,0 +1,18 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:red_dye"
+      },
+      "title": "Splash of colors",
+      "description": "Dye wool of the table.",
+      "background": "minecraft:textures/block/birch_planks.png",
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "keltos:chairs_adv1",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
